@@ -1,0 +1,168 @@
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body{
+  margin: 0;
+  background-color: #091426;
+  color: white;
+  max-width: 1500vmax;
+  max-height: 600vmax;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.data{
+  margin: auto;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: space-around;
+  justify-items: center;
+  flex-flow: wrap;
+  flex-direction: column;
+}
+.data-person{
+  background-color: #191F40;
+  height: 540px;
+  width: 280px;
+  border-radius: 15px;
+}
+.person{
+  height: 70%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #514BF2;
+}
+.menu{
+  background-color: #191F40;
+  color: rgb(173, 164, 164);
+  display: flex;
+  flex-direction: column;
+  padding-left:  40px;
+  justify-content: space-evenly;
+}
+.menu p:hover{
+  color: white;
+  cursor: pointer;
+}
+.data-info{
+  display: flex;
+  flex-wrap: wrap;
+  height: 540px;
+  width: 760px;
+  justify-content: space-around;
+  align-content: space-between;
+  margin: auto;
+  padding-left: 20px;
+
+
+}
+.task-dailys{
+  height: 255px;
+  width: 220px;
+  border-radius: 15px;
+  position: relative;
+}
+.task-data{
+  width: 100%;
+  height: 75%;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  background-color: #191F40;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.task-work{
+  height: 100%;
+  width: 100%;
+  background-color: #FF8B64;
+  border-radius: 15px;
+  background-image: url(./images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 1;
+  
+}
+.task-play{
+  height: 100%;
+  width: 100%;
+  background-color: #56C2E6;
+  border-radius: 15px;
+  background-image: url(./images/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 2;
+}
+.task-study{
+  height: 100%;
+  width: 100%;
+  background-color: #F25C84;
+  border-radius: 15px;
+  background-image: url(./images/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 3;
+}
+.task-exercise{
+  height: 100%;
+  width: 100%;
+  background-color: #52D981;
+  border-radius: 15px;
+  background-image: url(./images/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 4;
+}
+.task-social{
+  height: 100%;
+  width: 100%;
+  background-color: #7235D1;
+  border-radius: 15px;
+  background-image: url(./images/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 5;
+}
+.task-self-care{
+  height: 100%;
+  width: 100%;
+  background-color: #F2BF5E;
+  border-radius: 15px;
+  background-image: url(./images/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  order: 6;
+}
+.photo{
+  height: 35%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.photo-person{
+  height: 70px;
+  width: 70px;
+  background-image: url(images/image-jeremy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 3px solid;
+  color: white;
+  border-radius: 50%;
+}
+.name-person{
+   width: 80%;
+   height: 65%;
+   margin: auto;
+}
+h1{
+  font-size: 50px;
+  margin: 0;
+}
